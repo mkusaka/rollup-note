@@ -1,0 +1,21 @@
+{
+  "name": "rollup-note",
+  "version": "1.0.0",
+  "main": "umd/fancy-case.js",
+  "module": "esm/fancy-case.js",
+  "repository": "https://github.com/mkusaka/rollup-note.git",
+  "author": "mkusaka <hinoshita1992@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "^1.21.2",
+    "rollup-plugin-terser": "^5.1.2",
+    "rollup-plugin-typescript": "^1.0.1",
+    "tslib": "^1.10.0",
+    "typescript": "^3.6.3"
+  },
+  "files": [
+    "esm/*",
+    "umd/*"
+  ]
+
+}
